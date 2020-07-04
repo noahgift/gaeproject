@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hello I like to make AI Apps'
+    return 'this is auto-deployed via Google Cloud API'
 
 @app.route('/name/<value>')
 def name(value):
